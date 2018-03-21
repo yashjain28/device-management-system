@@ -1,0 +1,10 @@
+{
+    "auth": true,
+    "deployments": [],
+    "description": "",
+    "messaging_url": "presales.clearblade.com:1883",
+    "name": "Device Management System",
+    "platform_url": "https://presales.clearblade.com",
+    "system_key": "e0d083ab0b8abe99fd86c0bef802",
+    "system_secret": "E0D083AB0BDAEAFE8B8F8CB4E315"
+}
