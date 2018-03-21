@@ -1,0 +1,23 @@
+{
+    "author": {
+        "email": "tboon@clearblade.com"
+    },
+    "clouds": [],
+    "description": "Framework for a device management system. Focus is on edges, firmware and pushing updates using deployments",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://imgur.com/0hzyeVE",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform",
+        "device management"
+    ],
+    "license": "MIT",
+    "name": "device-management-system",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": ""
+}
