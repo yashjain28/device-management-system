@@ -1,4 +1,10 @@
-function message_firmwareMonitor(req, resp){
+/**
+ * Deletes all the message history on the messaging topic `FIRMWARETOPIC`. Fetches all rows from the `TABLENAME_FILES` collection.
+ * This service is executed by the following trigger. 
+ * DevMgnFirmwareRecordUpdate - this trigger activates when new item is created in `firmware` Collection.
+ * 
+ */
+function DevMgnMessageFirmwareMonitor(req, resp){
     ClearBlade.init({request:req});
     var msg = ClearBlade.Messaging();
     g_deleteMessages(FIRMWARETOPIC);

@@ -9,6 +9,6 @@
         "visibility": true
     },
     "key_value_pairs": {},
-    "name": "firmwareRecordUpdate",
-    "service_name": "message_firmwareMonitor"
+    "name": "DevMgnFirmwareRecordUpdate",
+    "service_name": "DevMgnMessageFirmwareMonitor"
 }

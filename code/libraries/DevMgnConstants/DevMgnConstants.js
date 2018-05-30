@@ -23,7 +23,7 @@ var ENDADDR=24;
 var TABLENAME_FILES="firmware";
 
 
-//Should put QLib to ensure execution before
+//Should put QPromiseLib to ensure execution before
 function g_deleteMessages(topic) {
 var callback = function (err, data) {
 		if(err) {

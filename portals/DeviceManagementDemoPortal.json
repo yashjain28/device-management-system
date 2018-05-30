@@ -50,7 +50,7 @@
                 "settings": {
                     "CALL_ON_LOAD": false,
                     "SUPPRESS_DATASOURCE_ERRORS": false,
-                    "code_name": "portal_firmwareUpload",
+                    "code_name": "DevMgnFirmwareUpload",
                     "payload": "{}",
                     "refresh_interval": 0
                 },
@@ -1603,7 +1603,7 @@
     },
     "description": "",
     "last_updated": "20 Mar 18 23:33 UTC",
-    "name": "Device Management Portal",
+    "name": "DeviceManagementDemoPortal",
     "system_key": "e0d083ab0b8abe99fd86c0bef802",
     "type": "custom_v2"
 }

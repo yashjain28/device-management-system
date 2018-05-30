@@ -1,4 +1,17 @@
-function portal_firmwareUpload(req, resp){
+
+/**
+ * This service creates a new row in the `firmware` collection. On success it deletes all the message history on the `PORTALUPDATETOPIC` message topic. 
+ * And then publishes a new message on that topic.
+ * 
+ * @param {string} fileversion
+ * @param {string} description
+ * @param {string} filecontent
+ * @param {string} os
+ * @param {string} architecture
+ * 
+ * 
+ */
+function DevMgnFirmwareUpload(req, resp){
     ClearBlade.init({request:req});
     var data = {
         filename: req.params.filename,

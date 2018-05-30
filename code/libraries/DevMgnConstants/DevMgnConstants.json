@@ -2,7 +2,7 @@
     "api": "",
     "dependencies": "",
     "description": "Global Library Constants and Functions",
-    "name": "globals",
+    "name": "DevMgnConstants",
     "version": 1,
     "visibility": "system"
 }

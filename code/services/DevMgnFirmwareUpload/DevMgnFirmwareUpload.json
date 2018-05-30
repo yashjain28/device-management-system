@@ -1,12 +1,12 @@
 {
     "current_version": 1,
-    "dependencies": "clearblade,globals,log",
+    "dependencies": "clearblade,DevMgnConstants,log",
     "logging_enabled": "false",
-    "name": "portal_firmwareUpload",
+    "name": "DevMgnFirmwareUpload",
     "params": [],
     "permissions": {
         "Administrator": 1
     },
     "run_user": "",
-    "source": "portal_firmwareUpload.js"
+    "source": "DevMgnFirmwareUpload.js"
 }

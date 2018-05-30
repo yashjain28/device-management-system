@@ -1,23 +1,49 @@
 {
-    "author": {
-        "email": "tboon@clearblade.com"
-    },
+    "author": "Terrance Boon <tboon@clearblade.com>",
     "clouds": [],
     "description": "Framework for a device management system. Focus is on edges, firmware and pushing updates using deployments",
     "domains": [],
     "gateways": [],
     "image_url": "https://i.imgur.com/0hzyeVE.png",
+    "asset_types": [
+        "System",
+        "Code Libraries",
+        "Code Services",
+        "Portals",
+        "Triggers",
+        "Collections"
+    ],
     "keywords": [
         "clearblade",
         "iot",
         "platform",
-        "device management"
+        "device management",
+        "device",
+        "management",
+        "edge",
+        "firmware",
+        "upload",
+        "status",
+        "file"
     ],
     "license": "MIT",
     "name": "device-management-system",
     "private": false,
-    "prog_lang": [],
-    "protocols": [],
+    "prog_lang": [
+        "javascript"
+    ],
+    "protocols": [
+        "REST"
+    ],
     "things": [],
-    "version": ""
+    "version": "2.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Boon67/device-management-system.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Boon67/device-management-system/issues"
+    },
+    "homepage": "https://github.com/Boon67/device-management-system#readme",
+    "dependencies": []
 }

@@ -34,7 +34,7 @@
             },
             {
                 "Level": 1,
-                "Name": "message_firmwareMonitor",
+                "Name": "DevMgnMessageFirmwareMonitor",
                 "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
             },
             {
@@ -44,7 +44,7 @@
             },
             {
                 "Level": 1,
-                "Name": "portal_firmwareUpload",
+                "Name": "DevMgnFirmwareUpload",
                 "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
             },
             {
@@ -169,7 +169,7 @@
         "Portals": [
             {
                 "Level": 15,
-                "Name": "Device Management Portal",
+                "Name": "DeviceManagementDemoPortal",
                 "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
             },
             {
